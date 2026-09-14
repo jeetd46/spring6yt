@@ -21,7 +21,7 @@ public class UserService {
     @Autowired
     private UserRepo repo;
 
-
+//This is a test change
     private BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(12);
 
     public Users register(Users user) {
